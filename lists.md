@@ -12,10 +12,12 @@
 
 ***
 
-In order to count the number of words, we first need to separate our string into individual words. One type of data structure we can use for this in Python is a **list**.  First, let's familiarize ourselves with how to create a **list**.  We create a list in Python by using square braces `[ ]` and separate each individual item in the list by a comma `,`.  
+As we begin to take a look at this process, the first thing we notice is that our data is in the form of a simple string, all of the words are collected in one long string. In order to count the number of words, we first need to separate our string into individual words. One type of data structure we can use for this in Python is a **list**.  
+
+First, let's take a moment to familiarize ourselves with the **list** data type and how to create a **list**.  We create a list in Python by using square braces `[ ]` and separate each individual item in the list by a comma `,`.  
 For example, if we wanted to create a list of the numbers 1 through 5, we would do it with the following code:  
 `[1, 2, 3, 4, 5]`   
-If we wanted to assign this list to a variable `numbers` we would use the following code:  
+If we wanted to save this list for later use we would need to assign it to a variable. For example if we wanted to assign our list to the variable `numbers` we would use the following code:  
 `numbers = [1, 2, 3, 4, 5]`   
 
 ## Try it out
@@ -35,8 +37,9 @@ Remember, to identify text as a string, we must wrap it in quotes, either single
 
 ***
 
-Click on the green arrow in the code cell below to see the output when you type in the variable name `pets`.  
-Practice making your own list in the code cell below.  
+Click on the green arrow in the code cell below then use the `print()` function to print the variable `pets` to see the output. Your code should look like this:  
+`print(pets)`  
+>**Level Up** - In the code cell below, practice making your own list.  Try using more than one data type and see how it works.  
 
 <p><iframe src="https://repl.it/@DSExperience/ListofStrings?lite=true" frameborder="0" width="100%" height="400px"></iframe></p>
 
@@ -44,7 +47,11 @@ Practice making your own list in the code cell below.
 
 ***
 
-Great, now that we understand **lists**, we can convert our continuous string of lyrics to a list of individual words using another built-in Python method `.split()`. Here is how we tell the computer to do this: split the string into a different entity every time you see a space.  Here are those directions in code.  
+Great, now that we understand **lists**, we can convert our continuous string of lyrics to a list of individual words using another built-in Python method `.split()`. The `.split()` method splits a into individual elements based on the criteria you provide and puts those elements into a list. 
+
+To use this method, you apply it to the end of the variable you want to split, and you provide the separator as an argument to the method.  For example if you wanted to split The default behavior is to split on any whitespace, but you can specify the separator you would like to separate by.  For example, 
+
+Here is how we tell the computer to do this: split the string into a different entity every time you see a space.  Here are those directions in code.  
 ```list_of_lyrics = lyrics.split(' ')```
 
 ## Try it out
