@@ -11,7 +11,7 @@
 
 ***
 
-To solve this problem with code, we do something similar to the index card method we discussed in the last lesson which is to organize our lyrics into a **list**.  We start with our words in a **string**. We will learn about **strings** below, but first, let's see how it looks:
+To solve this problem with code, we do something similar to the manual card method we discussed in the last lesson which is to organize our lyrics into a **list**.  We start with our words in a **string**. We will learn about **strings** below, but first, let's see how it looks:
 
 
 ```python

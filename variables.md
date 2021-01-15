@@ -18,7 +18,9 @@ Here we see that numeric values do not need quotes around them for Python to rec
 `word = 'Hello World'`  
 
 ## Try it out
+
 ***
+
 Type these lines of code into the console below.  Once you have used our examples, try to change the values and see how it affects the output.  
 `number = 15`  
 `word = "Hello World!"`
@@ -32,7 +34,9 @@ Try these examples out in the console below.
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@DSExperience/Variables?lite=true"></iframe>
 
 ## Let's apply this to our problem
+
 ***
+
 Now that we understand a little about how strings and variables work, let's assign our string of lyrics to a variable name, we will call this variable `lyrics_sample`.  
 
 
@@ -47,11 +51,15 @@ Now whenever we type the word `lyrics_sample` into Python we reference our strin
 ```
 
 ## Try it out
+
 ***
+
 You can try this yourself. We have created the variable `lyrics_sample` as shown above. If you click on the green arrow at the top of the interactive code console below, and type in the variable name `lyrics_sample` you'll see that Python will print out the lyrics for you!
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@DSExperience/Load-the-data?lite=true=1"></iframe>
 
 ## Recap
+
 ***
+
 Okay, great. We now have our lyrics assigned to our variable, `lyrics_sample` and we can use that to reference the string later in our code.  Now that we have learned about strings, let's learn how we can clean these strings up for our analysis. We will look at removing punctuation and normalizing the case of our text in the next lesson.
