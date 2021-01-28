@@ -1,4 +1,5 @@
 # Lists
+
 ## Objectives for this lesson
 
 ***
@@ -12,9 +13,10 @@
 
 ***
 
-As we begin to take a look at this process, the first thing we notice is that our data is in the form of a simple string, all of the words are collected in one long string. In order to count the number of words, we first need to separate our string into individual words. One type of data structure we can use for this in Python is a **list**.  
+As we begin to take a look at this process, the first thing we notice is that our data is in the form of a simple string, all of the words are collected in one long string. In order to count the number of words, we first need to separate our string into individual words. One type of data structure we can use for this in Python is a list, which is indicated in Python with `list`.  
 
-First, let's take a moment to familiarize ourselves with the **list** data type and how to create a **list**.  We create a list in Python by using square braces `[ ]` and separate each individual item in the list by a comma `,`.  
+First, let's take a moment to familiarize ourselves with the `list` data type and how to create a `list`.  We create a `list` in Python by using square braces `[ ]` and separate each individual item in the list by a comma `,`.  
+
 For example, if we wanted to create a list of the numbers 1 through 5, we would do it with the following code:  
 `[1, 2, 3, 4, 5]`   
 If we wanted to save this list for later use we would need to assign it to a variable. For example if we wanted to assign our list to the variable `numbers` we would use the following code:  

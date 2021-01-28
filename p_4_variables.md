@@ -6,13 +6,16 @@
 
 * Create a variable
 * Asign a value to a variable
+
 ## What is a variable?
 
 ***
 
 Being able to input data is important, but we need to be able to store that data somehow.  To do this we will use a **variable**. Variables are used to store and access information, they also give us the ability to label our information with a descriptive name so our code can be understood better by others.  
 
-Let's take a quick look at assigning a value to a variable. We use variables in coding so that we can write code that will not break when we change values so we do not have to re-write the code.  We assign a value to a variable by using the assignment operator `=`.  This assignment operator tells python to make our variable name represent the value we have given it.  For example, if we wanted to assign the value `15` to the word `number`, we would do that like this:  
+Let's take a quick look at assigning a value to a variable. We use variables in coding so that we can write code that will not break when we change values so we do not have to re-write the code.  We assign a value to a variable by using the assignment operator `=`.  This assignment operator tells python to make our variable name represent the value we have given it.  
+
+For example, if we wanted to assign the value `15` to the word `number`, we would do that like this:  
 `number = 15`  
 Here we see that numeric values do not need quotes around them for Python to recognize them.  We can also assign a string value to a variable, like this:  
 `word = 'Hello World'`  

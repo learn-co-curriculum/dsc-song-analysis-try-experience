@@ -12,6 +12,7 @@
 
 
 ## Cleaning the data
+
 ***
 
 In order to process the data effectively, we need to ensure that it is clean. In our case, this means that we will need to remove extraneous punctuation and normalize the case of the text. We can accomplish this using built-in methods in Python's string module. Python has many useful methods for strings, but we will just introduce you to a couple in this lesson. 
