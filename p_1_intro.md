@@ -29,6 +29,7 @@ In this module, we will take a look at some of the techniques used to gather dat
 ![](https://learn-verified.s3.amazonaws.com/data-science-assets/song-chart.png)
 
 This chart may be a bit confusing to read, let's take a look at a couple things before we move on. First, this is just a photo of an interactive version of the chart which you can see at the link at the beginning of the lesson.  There is much more information on the chart than we can see here, but this gives us some of the foundational information.
+
 * The position on the x axis (left to right) tells us how repetitive the song is in percentage.  The further the song is to the right, the more repetitive the song is.  
 * The label at the bottom is from the analysis.  In the analysis it was determined that the more repetitive the song is, the easier it is to digitally compress, so the reduction and repetitiveness of a song are the same.
 
