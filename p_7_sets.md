@@ -56,11 +56,11 @@ Run the code console below to see if a `list` shares the same properties with a 
 
 ***
 
-We just learned that order matters for lists, but not sets! Why does this matter to us? One of the steps in **our plan** was:
+We just learned that order matters for lists, but not sets! But let's take a step back: why does this matter to us? Remember, one of the steps in **our plan** was:
 
 > - Designate a spot for each unique word in our index cards
 
-In our case a `set` will create a collection of all of the individual words in the song, but as we have seen, the order will not remain. We will first get the set of unique words and then we will convert it to a list so that we can maintain the order integrity. Our first step is to create the set of unique words and we can accomplish this with the following code:
+In our case, a `set` will create a collection of all of the individual words in the song, but as you've seen, the order will not remain. You'll first get the set of unique words and will then convert it to a list so that you can maintain the order integrity. As a first step, you'll create the set of unique words. This can be accomplished this with the following code:
 `unique_words = set(list_of_lyrics)`
 
 ## Try it out
@@ -71,7 +71,7 @@ Click on the green arrow and type in `unique_words` to see what this set looks l
 
 <iframe frameborder="0" width="100%" height="300px" src="https://repl.it/@DSExperience/UniqueWords?lite=true"></iframe>
 
-We can see here that our list of unique words is significantly smaller than our total list of words.  How much smaller? Let's run the codeblock below to find out.
+You can see here that the list of unique words is significantly smaller than the total list of words.  How much smaller? Let's run the codeblock below to find out.
 
 <iframe frameborder="0" width="100%" height="700px" src="https://repl.it/@DSExperience/Setcompare?lite=true"></iframe>
 
@@ -80,7 +80,7 @@ That's a lot!
 So, there's a lot of repetition in `Barbara Ann`.  It's time to keep track of each word and the number of occurrences of each word.
 
 
-One of our goals is to present our list of repetitions almost as a table, with a (unique) word to the left and the number of occurrences to the right, this is known as a frequency table, but we will get deeper into that in a later lesson.  Below is an example of what a frequency table looks like:  
+One of the goals is to present the list of repetitions almost as a table, with a (unique) word to the left and the number of occurrences to the right, this is known as a frequency table, you'll learn more about that in a later lesson.  Below is an example of what a frequency table looks like:  
 
 | unique_words        | count           |
 | ------------- |:-------------:|
@@ -88,10 +88,10 @@ One of our goals is to present our list of repetitions almost as a table, with a
 | Barbara     | 3 |
 | Ba     | 8 |
 
-Now that we have a collection with the unique words, we need to make sure our order of unique words is fixed, because we will start matching a value to it (the value being equal to how often the word occurs in the song). So let's convert our `unique_words` `set` to a `list`. We can do this by using one simple line of code and the `list()` function.  We will simply provide our set as an argument to the `list()` function like this:  
+Now that you have a collection with the unique words, you'll need to make sure the order of unique words is fixed, because you'll start matching a value to it (the value being equal to how often the word occurs in the song). So let's convert the `unique_words` `set` to a `list`. You can do this by using one simple line of code and the `list()` function.  You can simply provide our set as an argument to the `list()` function like this:  
 `unique_words = list(unique_words)`
 
-We can check that this worked by passing the variable name `unique_words` as an arguement to the `type()` function.  
+You can check that this worked by passing the variable name `unique_words` as an arguement to the `type()` function.  
 
 ## Try it out
 
@@ -105,4 +105,4 @@ Run the cell below to see how this works.
 
 ***
 
-In this lesson we learned the difference between a `list` and a `set`.  We also discovered that the order is not important in a `set`, but that a `list` will maintain the order of the data.  We also looked a a function to check the type of data that is referenced by a variable as well as how to convert an unordered `set` back to an ordered `list`.  Now that we have the data in the format we need for our analysis, we can move on an begin to count the occurrences of each word in our lyrics. We will learn how we can create a collection of key, value pairs by using annother data type called a dictionary `dict` in the next section.
+In this lesson, you learned the difference between a `list` and a `set`.  You also discovered that the order is not important in a `set`, but that a `list` will maintain the order of the data.  You also learned about a function to check the type of data that is referenced by a variable as well as how to convert an unordered `set` back to an ordered `list`.  Now that the data is in the desired format, let's move on an begin to count the occurrences of each word in our lyrics. We will learn how we can create a collection of so-called "key-value" pairs by using annother data type called a dictionary `dict` in the next section.
