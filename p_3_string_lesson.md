@@ -66,7 +66,7 @@ and look at the error message you encounter.
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@DSExperience/Strings?lite=true"></iframe>
 
-To avoid errors, you'll need to make sure there are quotes around the text to make a string.  Great, now that yiou know how to input some data, let's seee how you can store that data so you can access it when you want it.
+To avoid errors, you'll need to make sure there are quotes around the text to make a string.  Great, now that you know how to input some data, let's see how you can store that data so you can access it when you want it.
 
 ## Recap
 

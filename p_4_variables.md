@@ -65,4 +65,4 @@ You can try this yourself. We have created the variable `lyrics_sample` as shown
 
 ***
 
-Okay, great. You have now assigned the lyrics to our variable, `lyrics_sample` and you can use that to reference the string later in our code.  Now that you have learned about strings, let's learn how you can clean these strings up for our analysis. Youwill look at removing punctuation and normalizing the case of our text in the next lesson.
+Okay, great. You have now assigned the lyrics to our variable, `lyrics_sample` and you can use that to reference the string later in our code.  Now that you have learned about strings, let's learn how you can clean these strings up for our analysis. You will look at removing punctuation and normalizing the case of our text in the next lesson.
