@@ -15,7 +15,7 @@
 
 ***
 
-In order to process the data effectively, we need to ensure that it is clean. In our case, this means that we will need to remove extraneous punctuation and normalize the case of the text. We can accomplish this using built-in methods in Python's string module. Python has many useful methods for strings, but we will just introduce you to a couple in this lesson. 
+In order to process the data effectively, you need to make sure that it is clean. In this particular case, this means that you will need to remove extraneous punctuation and normalize the case of the text. This can be accomplished by using built-in methods in Python's string module. Python has many useful methods for strings, but we will just introduce you to a couple in this lesson. 
 
 >When you encounter a new collection of python commands, sometimes referred to as packages or libraries, it is helpful to read through the documentation and familiarize yourself with the commands that are avaliable and the types of arguments they take by visiting the documentation page. Take a moment to look at some of the methods that python has built-into the `str()` function <a href="https://docs.python.org/2/library/stdtypes.html#string-methods" target="blank">here</a>. You can see a sample of the documentation below.
 
@@ -49,18 +49,18 @@ Run the console by clicking on the green arrow to view the output of the code.
 
 ***
 
-When we are analyzing text, we need to make sure that the data is free of all unecessary punctuation as these characters can throw off the analysis and cause some undesired results.  Below we are going to use the `.replace()` method to address some of these items such as punctuation and extra words. 
+When analyzing text, you need to make sure that the data is free of all unnecessary punctuation as these characters can throw off the analysis and cause some undesired results.  Below, you'll use the `.replace()` method to address some of these items such as punctuation and extra words. 
 
 Some methods require input in order to work properly.  In our case, the `.replace()` method takes in two arguments separated by a comma: the first argument is the substring you want to remove and the second is the substring you wish to replace it with.  For example, if you wanted to replace a `?` with a `!` the code would look like this:  
 `new_string = old_string.replace('?', '!')`  
->Notice we have to assign result to a variable, this is necessary since this method is considered "non-destructive". This means the method does not change the original string.  
+> Notice that you have to assign the result to a variable, this is necessary since this method is considered "non-destructive". This means the method does not change the original string.  
 Lets look at an example of the `.replace()` method to see how this works in the code console below.
 
 ## Try it out
 
 ***
 
-In the code below, we are removing the punctuation from the sentence using the `.replace()` method.  We will first see how the apostrophe is removed and replaced with nothing.  The apostrophe is a `str`, so we need to wrap it in quotes, like this: `"'"`. This is the perfect example that demonstrates the need for the two different types of quotes.  We use the double quotes here because the single quotes will get confusing for Python and we will encounter a syntax error. We are replacing the apostrophe `"'"` with a `str` of nothing `''`.  Run the code console below, then type in the following code to see how this works.  
+In the code below, we are removing the punctuation from the sentence using the `.replace()` method.  You will first see how the apostrophe is removed and replaced with nothing.  The apostrophe is a `str`, so you need to wrap it in quotes, like this: `"'"`. This is the perfect example that demonstrates the need for the two different types of quotes.  We use the double quotes here because the single quotes will get confusing for Python and we will encounter a syntax error. We are replacing the apostrophe `"'"` with a `str` of nothing `''`.  Run the code console below, then type in the following code to see how this works.  
 `lyrics.replace("'", '')`
 
 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@DSExperience/LowerCase?lite=true"></iframe>
@@ -69,21 +69,21 @@ In the code below, we are removing the punctuation from the sentence using the `
 
 ***
 
-Below is the sample of the lyrics we have been working with.  Up to this point we have just been working with a little piece of the song to make things easy, from this point forward, we will be working with the full set of lyrics from the song *Barbara Ann*.  In the sample below, we can se that there are many different characters that we don't need for our analysis, they have been highlighted to make it easier for us to see them.
+Below is the sample of the lyrics you have been working with.  Up to this point, you have just been working with a little piece of the song to make things easy, from this point forward, you will be working with the full set of lyrics from the song *Barbara Ann*.  In the sample below, you can see that there are many different characters that are not needed for our analysis, they have been highlighted to make it easier for you to see them.
 
 "Ah`,` Ba Ba Ba Ba Barbara Ann Ba Ba Ba Ba Barbara Ann Oh Barbara Ann Take My Hand Barbara Ann You Got Me Rockin`'` And A`-`Rollin`'` Rockin`'` And A`-`Reelin`'` Barbara Ann Ba Ba Ba Barbara Ann, Ba Ba Ba Ba Barbara Ann Ba Ba Ba Ba Barbara Ann"
 
-To begin cleaning our data, we will first apply the `.lower()` method to normalize the case of the text.
+To begin cleaning our data, you will first apply the `.lower()` method to normalize the case of the text.
 
 ## Try it out
 
 ***
 
-Run the code console below, to see the output from the `.lower()` method. 
+Run the code console below to see the output from the `.lower()` method. 
 
 <iframe frameborder="0" width="100%" height="900px" src="https://repl.it/@DSExperience/Lowerlyrics?lite=true"></iframe>
 
-Great, now we have our text case normalized, now we can remove the unnecessary punctuation. 
+Great, now you have the text case normalized, you can remove the unnecessary punctuation. 
 
 ## Try it out
 
@@ -93,10 +93,10 @@ To see how the `.replace()` method replaces these items in our data, you can run
 
 <iframe frameborder="0" width="100%" height="900px" src="https://repl.it/@DSExperience/stringmethods?lite=true"></iframe>
 
-The sample of the song lyrics we have been working with is composed of just a few lyrics and each of those lyrics is capitalized. The whole song is a bit longer and has some words capitalized and some lower case. This can cause an issue for our analysis since python is case sensitive and will see the same word both capitalized and lower case as two different words.  For example 'Ba' and 'ba'. Python identifies each of these as a different word. This is an issue with the whole song lyrics, so we will use another string method `.lower()` to help with this. The `.lower()` methodworks on a string, since our `list_of_lyrics` is a collection of strings, we can use a `for loop` to iterate through the list and apply the method to each string. 
+The sample of the song lyrics is composed of just a few lyrics and each of those lyrics is capitalized. The whole song is a bit longer and has some words capitalized and some lower case. This can cause an issue for the analysis since python is case sensitive and will see the same word both capitalized and lower case as two different words.  For example 'Ba' and 'ba'. Python identifies each of these as a different word. This is an issue with the whole song lyrics, so we will use another string method `.lower()` to help with this. The `.lower()` method works on a string. Since `list_of_lyrics` is a collection of strings, you can use a `for loop` to iterate through the list and apply the method to each string. 
 
 ## Recap
 
 ***
 
-In this lesson, we explored a couple of ways data can be cleaned for analysis.  We looked at two string methods: `.replace()` and `.lower()` and how we can use these methods to clean our data and get it to a state that will lend itself to a more accurate analysis. If we remember **our plan**, the first step was to place each word on a separate index card, but strings are **not** good for separating our text into individual words.  For that, we need a new data structure called a **list**.  In the next lesson, we will introduce you to the **list** `list` data type.
+In this lesson, you explored a couple of ways data can be cleaned for analysis. You looked at two string methods: `.replace()` and `.lower()` and how these methods can be used to clean the data and get it to a state that will lend itself to a more accurate analysis. If you remember **our plan**, the first step was to place each word on a separate index card, but strings are **not** good for separating our text into individual words.  For that, you need a new data structure called a **list**.  In the next lesson, you will be introduced to the **list** `list` data type.

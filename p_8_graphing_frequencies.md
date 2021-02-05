@@ -13,7 +13,7 @@
 
 ***
 
-The information we are trying to organize is essentially a pair of `keys` (the lyric) and `values` (the number of occurrences of that lyric).  Python has a great data type that is perfect for this type of information, it is called a dictionary `dict`. A dictionary is a comma separated list of key and value pairs and in Python is denoted by the curly braces`{}` and each key value pair is joined with a colon `key:value`. The `value` is the important data you want to access or use, and the `key` is the address of that value.  We will not get into to much detail about dictionaries, for now we just need to know that it is a list of `key:value` pairs.  You could use a dictionary to store data about the artist of the song represented by key value pairs like this:  
+Let's think about our lyrics.  The information we are trying to organize is essentially a pair of `keys` (the lyric) and `values` (the number of occurrences of that lyric).  Python has a great data type that is perfect for this type of information, it is called a dictionary `dict`. A dictionary is a comma separated list of key and value pairs and in Python is denoted by the curly braces`{}` and each key value pair is joined with a colon `key:value`. The `value` is the important data you want to access or use, and the `key` is the address of that value.  We will not get into to much detail about dictionaries, for now we just need to know that it is a list of `key:value` pairs (where "keys" and "values" are separated by ":").  You could use a dictionary to store data about the artist of the song represented by key value pairs like this:  
 `artist = {"name": "The Beatles", "genre": "Rock", "number of albums":12}`  
 
 ## Try it out
@@ -29,11 +29,11 @@ In the code console below, you can see a few examples of how to access the data 
 
 ***
 
-Now that we have a unique set of the words in the lyrics, we can begin to count how many times each word appears in the entire lyrics, this is often referred to as frequency.  To do this, we will once again use a for loop.  In the loop, we will be iterating through the `set` `unique_words` and for each word we will count the number of occurrences in the lyrics.  The results of each iteration will then be recorded in a dictionary as key value pairs.  Run the code console below to see the result of this action.
+Now that you have a unique set of the words in the lyrics, you can begin to count how many times each word appears in the entire lyrics, this is often referred to as frequency.  To do this, you will once again use a for loop.  In the loop, you'll be iterating through the `set` `unique_words` and for each word you'll count the number of occurrences in the lyrics.  The results of each iteration will then be recorded in a dictionary as key value pairs.  Run the code console below to see the result of this action.
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/@DSExperience/LyricsDictionary?lite=true"></iframe>
 
-Now that we have our data and it is in a format we can work with, we can begin taking a look at the result of some of our work and begin to draw information from the data. In the graph generated below, you can see the frequencies of the first 6 words in the song.
+Now that you have in the desired format, you can begin taking a look at the result of some of our work and begin to draw information from the data. In the graph generated below, you can see the frequencies of the first 6 words in the song.
 
 <iframe frameborder="0" width="100%" height="600px" src="https://repl.it/@DSExperience/SongVisualization?lite=true"></iframe>
 
@@ -41,4 +41,4 @@ Now that we have our data and it is in a format we can work with, we can begin t
 
 ***
 
-In this section we learned how we can visualize data with a bar chart using matplotlib.  We learned how to create a dictionary of key value pairs and created a dictionary of frequencies.
+In this section, you learned how to visualize data with a bar chart using matplotlib.  You also learned how to create a dictionary of key value pairs and created a dictionary of frequencies.

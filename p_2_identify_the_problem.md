@@ -4,7 +4,7 @@
 
 ***
 
-* Identify the problem we wish to address
+* Identify the problem you want to address
 * Develop a plan of attack to work through the problem 
 
 ## Identifying the problem
@@ -40,16 +40,16 @@ It keeps going, but you get the point.
 
 ***
 
-Now let's say that we wanted to count up how many times each word in the above selection appears.  Without a computer it would be difficult to organize and time consuming.  We would have to record all of the lyrics on paper, cross out all of the duplicates and then count the number of times each of the words occurs in the lyrics.  Also, we would not have the ability to do any visualizations.
+Now let's say that you want to count up how many times each word in the above selection appears.  Without a computer it would be difficult to organize and time-consuming.  You would have to record all of the lyrics on paper, cross out all of the duplicates and then count the number of times each of the words occurs in the lyrics. Additionally, you wouldn't have the ability to do any visualizations.
 
-With python, we will:
+With python, you'll learn how to:
 * Make a **list** of all of the words in the lyrics
 * Make a **set** of all of the unique words
 * Generate a word frequency table
 * Chart the frequency table on a bar chart
 * Create a WordCloud of the lyrics visualizing the higher frequency lyrics
 
-Let's call these steps above **our plan**.  At the end of this lesson and after completing each step of our above plan, we will have a chart, like the one below, giving us a visualization of the most repetitious words in the Beach Boys' song, *Barbara Ann* as well as a WordCloud and some useful data structures for analysis.
+Let's call these steps above **our plan**.  At the end of this lesson and after completing each step of our above plan, you will have a chart, like the one below, giving us a visualization of the most repetitious words in the Beach Boys' song, *Barbara Ann* as well as a WordCloud and some useful data structures for analysis.
 
 <p style="text-align: center;">
 	<img src='https://learn-co-curriculum.github.io/dsc-song-analysis-try-experience/Screen Shot 2021-01-12 at 4.00.18 PM.png' width='100%'></p>
@@ -58,4 +58,4 @@ Let's call these steps above **our plan**.  At the end of this lesson and after 
 
 ***
 
-Great, now that we have a plan of action, let's translate our plan into code and make some visualizations.
+Great, now that there is a plan of action, let's translate our plan into code and make some visualizations.
