@@ -12,7 +12,7 @@
 
 ***
 
-In this lesson, you'll be to analyzing the number 1 pop song from the top of each decade.  In the code console below we have imported and cleaned the lyrics from the top song of the first year of each decade.  You can visualize each song individually using a function we created called `make_bar_plot`.  This function will graph the top number frequencies of the song you chose by passin the arguements `song_name`, `top_n`. For example, if you want the top 5 most occurring lyrics in the song 'hold_on' you can enter `make_bar_plot('hold_on', 5)` and you'll see the resulting bar chart be rendered.
+In this lesson, you'll be analyzing the number 1 pop song from the top of each decade.  In the code console below we have imported and cleaned the lyrics from the top song of the first year of each decade.  You can visualize each song individually using a function we created called `make_bar_plot`.  This function will graph the top number frequencies of the song you chose by passin the arguments `song_name`, `top_n`. For example, if you want the top 5 most occurring lyrics in the song 'hold_on' you can enter `make_bar_plot('hold_on', 5)` and you'll see the resulting bar chart be rendered.
 
 ## Try it out
 

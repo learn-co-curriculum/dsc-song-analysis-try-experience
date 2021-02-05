@@ -70,7 +70,7 @@ In the code console below, we're creating `list_of_lyrics`. Let's see what this 
 
 ***
 
-Ok, so this is a `list`, and as you can see,  each word is now being treatedas an individual **item**. Each individual item in a list is called an **element**. To see how many elements are in `list_of_lyrics`, you can use the function `len()`.  To use this function we must pass an iterable as an argument to the function, this is done by including the variable name in the parentheses like this: `len(list_of_lyrics)`  
+Ok, so this is a `list`, and as you can see, each word is now being treated as an individual **item**. Each individual item in a list is called an **element**. To see how many elements are in `list_of_lyrics`, you can use the function `len()`.  To use this function we must pass an iterable as an argument to the function, this is done by including the variable name in the parentheses like this: `len(list_of_lyrics)`  
 
 ## Try it out
 
