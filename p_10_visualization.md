@@ -22,9 +22,11 @@ For example, if you want the top 5 most occurring lyrics in the song 'hold_on' y
 
 You can try out the `make_bar_plot()` function for yourself.  Choose a title to pass into the function from the list above, and a number of top lyrics to visualize.  You can just pass a song name and the function will default to the top 10.  
 
-Click on the link below to see this for yourself.  The link will take you to a read only version of a notebook that you can then save a copy and try changing some of the code to see how it affects the output.
+Click on the link below to see this for yourself.  The link will take you to a read only version of a notebook that you can then save a copy and try changing some of the code to see how it affects the output.  
 
-> Remember, once you are done, return to this lesson to complete it.
+> This notebook is in Google Colab which is an online IDE (Integrated Development Environment), in this IDE you can edit and run code, as well as save the notebook and make changes.  You will need to sign in to your Google account or create one.  
+
+### Remember, once you are done, return to this lesson to complete it.
 
 <a href="https://colab.research.google.com/drive/1SAPISztyN5ndUDfY6Mq8cuAG_rnFi7G9?usp=sharing" target="blank">Click Here to go to the notebook.</a>
 
